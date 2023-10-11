@@ -83,7 +83,7 @@ namespace WindowsFormsApp1
             // 
             this.button1.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.enter_icon_icons_com_48306;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.Location = new System.Drawing.Point(588, 252);
+            this.button1.Location = new System.Drawing.Point(589, 263);
             this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(96, 123);
