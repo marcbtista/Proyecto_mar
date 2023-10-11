@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F96ADBC1-CF73-4B43-8C3F-09828A5F2618}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp1</RootNamespace>
+    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaAdicional1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaAdicional1.Designer.cs">
+      <DependentUpon>FormaAdicional1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaAdicional2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaAdicional2.Designer.cs">
+      <DependentUpon>FormaAdicional2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaCalculadora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaCalculadora.Designer.cs">
+      <DependentUpon>FormaCalculadora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaCalificaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaCalificaciones.Designer.cs">
+      <DependentUpon>FormaCalificaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaConversion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaConversion.Designer.cs">
+      <DependentUpon>FormaConversion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaEcuacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaEcuacion.Designer.cs">
+      <DependentUpon>FormaEcuacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaFrecuencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaFrecuencia.Designer.cs">
+      <DependentUpon>FormaFrecuencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaHome.Designer.cs">
+      <DependentUpon>FormaHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaIngreso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaIngreso.Designer.cs">
+      <DependentUpon>FormaIngreso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaNuevoSalario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaNuevoSalario.Designer.cs">
+      <DependentUpon>FormaNuevoSalario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaRegistro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaRegistro.Designer.cs">
+      <DependentUpon>FormaRegistro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaUsuarioIngre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaUsuarioIngre.Designer.cs">
+      <DependentUpon>FormaUsuarioIngre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaVideo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaVideo.Designer.cs">
+      <DependentUpon>FormaVideo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormVisor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormVisor.Designer.cs">
+      <DependentUpon>FormVisor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaAdicional1.resx">
+      <DependentUpon>FormaAdicional1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaAdicional2.resx">
+      <DependentUpon>FormaAdicional2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaCalculadora.resx">
+      <DependentUpon>FormaCalculadora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaCalificaciones.resx">
+      <DependentUpon>FormaCalificaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaConversion.resx">
+      <DependentUpon>FormaConversion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaEcuacion.resx">
+      <DependentUpon>FormaEcuacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaFrecuencia.resx">
+      <DependentUpon>FormaFrecuencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaHome.resx">
+      <DependentUpon>FormaHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaIngreso.resx">
+      <DependentUpon>FormaIngreso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaNuevoSalario.resx">
+      <DependentUpon>FormaNuevoSalario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaRegistro.resx">
+      <DependentUpon>FormaRegistro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaUsuarioIngre.resx">
+      <DependentUpon>FormaUsuarioIngre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaVideo.resx">
+      <DependentUpon>FormaVideo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormVisor.resx">
+      <DependentUpon>FormVisor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6073873.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\60738731.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-clipart-password-computer-icons-liberty-locks-internet-area.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enter_icon-icons.com_48306.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-lettering-welcome-home-black-decoration-printable-png-image_3558239.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\registro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\welcome.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calculator app cover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\convertir.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo de pantalla, fondo de colores, Fondos de pintura, Fondos con textura,  Fondo minimalista.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c537cd85-0dac-4ace-bef4-ca693c32838d.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Heart Poster Assets.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\399c46de-d0c7-418e-893e-1c6ec976c2cc.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Talavera Surface Pattern Design.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_Heart of Talavera_ Sticker by MauSB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mexican Crafts - my love_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\399c46de-d0c7-418e-893e-1c6ec976c2cc1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4ca6e78c-26bc-4ed5-9cd7-7576a929aa6f.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4ca6e78c-26bc-4ed5-9cd7-7576a929aa6f1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6d56c491-9ca2-4f36-a6a9-cfec3bac4689.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ejercicios de ecuaciones cuadráticas resueltas _ Matemáticas modernas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %285%29.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
