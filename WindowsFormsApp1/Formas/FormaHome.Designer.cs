@@ -47,7 +47,13 @@ namespace WindowsFormsApp1.Formas
             this.practicasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.calificacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.usuarioValidoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.agenciaDeCitasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.conversorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.visorDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pruebaMatematicaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pruebaMatematicaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,11 +66,12 @@ namespace WindowsFormsApp1.Formas
             this.ejerciciosToolStripMenuItem,
             this.ayudaToolStripMenuItem,
             this.practicasToolStripMenuItem,
-            this.visorDeToolStripMenuItem});
+            this.visorDeToolStripMenuItem,
+            this.pruebaMatematicaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
-            this.menuStrip1.Size = new System.Drawing.Size(473, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(608, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -180,7 +187,11 @@ namespace WindowsFormsApp1.Formas
             // 
             this.practicasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.calificacionesToolStripMenuItem,
-            this.usuarioValidoToolStripMenuItem});
+            this.usuarioValidoToolStripMenuItem,
+            this.agenciaDeCitasToolStripMenuItem,
+            this.toolStripMenuItem1,
+            this.conversorToolStripMenuItem,
+            this.toolStripMenuItem2});
             this.practicasToolStripMenuItem.Name = "practicasToolStripMenuItem";
             this.practicasToolStripMenuItem.Size = new System.Drawing.Size(66, 22);
             this.practicasToolStripMenuItem.Text = "Practicas";
@@ -199,6 +210,33 @@ namespace WindowsFormsApp1.Formas
             this.usuarioValidoToolStripMenuItem.Text = "Usuario valido";
             this.usuarioValidoToolStripMenuItem.Click += new System.EventHandler(this.usuarioValidoToolStripMenuItem_Click);
             // 
+            // agenciaDeCitasToolStripMenuItem
+            // 
+            this.agenciaDeCitasToolStripMenuItem.Name = "agenciaDeCitasToolStripMenuItem";
+            this.agenciaDeCitasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.agenciaDeCitasToolStripMenuItem.Text = "Agencia de citas";
+            this.agenciaDeCitasToolStripMenuItem.Click += new System.EventHandler(this.agenciaDeCitasToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem1.Text = "Filtrando Nombres";
+            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
+            // 
+            // conversorToolStripMenuItem
+            // 
+            this.conversorToolStripMenuItem.Name = "conversorToolStripMenuItem";
+            this.conversorToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.conversorToolStripMenuItem.Text = "Conversor";
+            this.conversorToolStripMenuItem.Click += new System.EventHandler(this.conversorToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem2.Text = "Registrate";
+            // 
             // visorDeToolStripMenuItem
             // 
             this.visorDeToolStripMenuItem.Name = "visorDeToolStripMenuItem";
@@ -206,13 +244,29 @@ namespace WindowsFormsApp1.Formas
             this.visorDeToolStripMenuItem.Text = "Visor de imagenes";
             this.visorDeToolStripMenuItem.Click += new System.EventHandler(this.visorDeToolStripMenuItem_Click);
             // 
+            // pruebaMatematicaToolStripMenuItem
+            // 
+            this.pruebaMatematicaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.pruebaMatematicaToolStripMenuItem1});
+            this.pruebaMatematicaToolStripMenuItem.Name = "pruebaMatematicaToolStripMenuItem";
+            this.pruebaMatematicaToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
+            this.pruebaMatematicaToolStripMenuItem.Text = "Tutoriales guiados";
+            this.pruebaMatematicaToolStripMenuItem.Click += new System.EventHandler(this.pruebaMatematicaToolStripMenuItem_Click);
+            // 
+            // pruebaMatematicaToolStripMenuItem1
+            // 
+            this.pruebaMatematicaToolStripMenuItem1.Name = "pruebaMatematicaToolStripMenuItem1";
+            this.pruebaMatematicaToolStripMenuItem1.Size = new System.Drawing.Size(177, 22);
+            this.pruebaMatematicaToolStripMenuItem1.Text = "Prueba matematica";
+            this.pruebaMatematicaToolStripMenuItem1.Click += new System.EventHandler(this.pruebaMatematicaToolStripMenuItem1_Click);
+            // 
             // FormaHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.welcome;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(473, 265);
+            this.ClientSize = new System.Drawing.Size(608, 346);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FormaHome";
@@ -246,5 +300,11 @@ namespace WindowsFormsApp1.Formas
         private System.Windows.Forms.ToolStripMenuItem calificacionesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem usuarioValidoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem visorDeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pruebaMatematicaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pruebaMatematicaToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem agenciaDeCitasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem conversorToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
     }
 }

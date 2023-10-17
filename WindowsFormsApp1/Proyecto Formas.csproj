@@ -94,6 +94,12 @@
     <Compile Include="Formas\FormaFrecuencia.Designer.cs">
       <DependentUpon>FormaFrecuencia.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formas\FormAgencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormAgencia.Designer.cs">
+      <DependentUpon>FormAgencia.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formas\FormaHome.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -130,6 +136,30 @@
     <Compile Include="Formas\FormaVideo.Designer.cs">
       <DependentUpon>FormaVideo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formas\FormConversor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormConversor.Designer.cs">
+      <DependentUpon>FormConversor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormFiltrandoNombres.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormFiltrandoNombres.Designer.cs">
+      <DependentUpon>FormFiltrandoNombres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormPruebaMatematica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormPruebaMatematica.Designer.cs">
+      <DependentUpon>FormPruebaMatematica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormRegistrate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormRegistrate.Designer.cs">
+      <DependentUpon>FormRegistrate.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formas\FormVisor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -162,6 +192,9 @@
     <EmbeddedResource Include="Formas\FormaFrecuencia.resx">
       <DependentUpon>FormaFrecuencia.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormAgencia.resx">
+      <DependentUpon>FormAgencia.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formas\FormaHome.resx">
       <DependentUpon>FormaHome.cs</DependentUpon>
     </EmbeddedResource>
@@ -179,6 +212,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formas\FormaVideo.resx">
       <DependentUpon>FormaVideo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormConversor.resx">
+      <DependentUpon>FormConversor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormFiltrandoNombres.resx">
+      <DependentUpon>FormFiltrandoNombres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormPruebaMatematica.resx">
+      <DependentUpon>FormPruebaMatematica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormRegistrate.resx">
+      <DependentUpon>FormRegistrate.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formas\FormVisor.resx">
       <DependentUpon>FormVisor.cs</DependentUpon>

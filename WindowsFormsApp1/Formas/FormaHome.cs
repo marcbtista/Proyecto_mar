@@ -100,5 +100,34 @@ namespace WindowsFormsApp1.Formas
             FormVisor formVisor = new FormVisor();
             formVisor.Show();
         }
+
+        private void pruebaMatematicaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pruebaMatematicaToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            FormPruebaMatematica formPruebaMatematica = new FormPruebaMatematica();
+            formPruebaMatematica.Show();
+        }
+
+        private void agenciaDeCitasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormAgencia formAgencia = new FormAgencia();
+            formAgencia.Show();
+        }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            FormFiltrandoNombres formFiltrando = new FormFiltrandoNombres();
+            formFiltrando.Show();
+        }
+
+        private void conversorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormConversor formConversor = new FormConversor();
+            formConversor.Show();
+        }
     }
 }
