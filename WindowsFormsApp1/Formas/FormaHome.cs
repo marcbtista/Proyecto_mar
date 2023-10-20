@@ -129,5 +129,30 @@ namespace WindowsFormsApp1.Formas
             FormConversor formConversor = new FormConversor();
             formConversor.Show();
         }
+
+        private void juegoAdivinaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormMatchingGame formMatching = new FormMatchingGame();
+            formMatching.Show();
+        }
+
+        private void toolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            FormBuzonDeQuejas formBuzonDeQuejas = new FormBuzonDeQuejas();
+            formBuzonDeQuejas.Show();
+        }
+
+        private void matriculaYPromedioCalificacionesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormMatriculayPromedio formMatriculayPromedio = new FormMatriculayPromedio();
+            formMatriculayPromedio.Show();
+        }
+
+        private void realizarComentariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormComentarios formComentarios = new FormComentarios();
+            formComentarios.Show();
+
+        }
     }
 }

@@ -136,6 +136,18 @@
     <Compile Include="Formas\FormaVideo.Designer.cs">
       <DependentUpon>FormaVideo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formas\FormBuzonDeQuejas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormBuzonDeQuejas.Designer.cs">
+      <DependentUpon>FormBuzonDeQuejas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormComentarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormComentarios.Designer.cs">
+      <DependentUpon>FormComentarios.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formas\FormConversor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -147,6 +159,18 @@
     </Compile>
     <Compile Include="Formas\FormFiltrandoNombres.Designer.cs">
       <DependentUpon>FormFiltrandoNombres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormMatchingGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormMatchingGame.Designer.cs">
+      <DependentUpon>FormMatchingGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormMatriculayPromedio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormMatriculayPromedio.Designer.cs">
+      <DependentUpon>FormMatriculayPromedio.cs</DependentUpon>
     </Compile>
     <Compile Include="Formas\FormPruebaMatematica.cs">
       <SubType>Form</SubType>
@@ -213,11 +237,23 @@
     <EmbeddedResource Include="Formas\FormaVideo.resx">
       <DependentUpon>FormaVideo.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormBuzonDeQuejas.resx">
+      <DependentUpon>FormBuzonDeQuejas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormComentarios.resx">
+      <DependentUpon>FormComentarios.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formas\FormConversor.resx">
       <DependentUpon>FormConversor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formas\FormFiltrandoNombres.resx">
       <DependentUpon>FormFiltrandoNombres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormMatchingGame.resx">
+      <DependentUpon>FormMatchingGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormMatriculayPromedio.resx">
+      <DependentUpon>FormMatriculayPromedio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formas\FormPruebaMatematica.resx">
       <DependentUpon>FormPruebaMatematica.cs</DependentUpon>
@@ -353,6 +389,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\download %285%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\question.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\question %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\question %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\103228.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1032281.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -63,6 +63,26 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _103228 {
+            get {
+                object obj = ResourceManager.GetObject("103228", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1032281 {
+            get {
+                object obj = ResourceManager.GetObject("1032281", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _399c46de_d0c7_418e_893e_1c6ec976c2cc {
             get {
                 object obj = ResourceManager.GetObject("399c46de-d0c7-418e-893e-1c6ec976c2cc", resourceCulture);
@@ -307,6 +327,36 @@ namespace WindowsFormsApp1.Properties {
         internal static System.Drawing.Bitmap pngtree_lettering_welcome_home_black_decoration_printable_png_image_3558239 {
             get {
                 object obj = ResourceManager.GetObject("pngtree-lettering-welcome-home-black-decoration-printable-png-image_3558239", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap question {
+            get {
+                object obj = ResourceManager.GetObject("question", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap question__1_ {
+            get {
+                object obj = ResourceManager.GetObject("question (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap question__2_ {
+            get {
+                object obj = ResourceManager.GetObject("question (2)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

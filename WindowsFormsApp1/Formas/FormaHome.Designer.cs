@@ -51,9 +51,13 @@ namespace WindowsFormsApp1.Formas
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.conversorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.matriculaYPromedioCalificacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.visorDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pruebaMatematicaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pruebaMatematicaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.juegoAdivinaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.realizarComentariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -191,7 +195,10 @@ namespace WindowsFormsApp1.Formas
             this.agenciaDeCitasToolStripMenuItem,
             this.toolStripMenuItem1,
             this.conversorToolStripMenuItem,
-            this.toolStripMenuItem2});
+            this.toolStripMenuItem2,
+            this.toolStripMenuItem3,
+            this.matriculaYPromedioCalificacionesToolStripMenuItem,
+            this.realizarComentariosToolStripMenuItem});
             this.practicasToolStripMenuItem.Name = "practicasToolStripMenuItem";
             this.practicasToolStripMenuItem.Size = new System.Drawing.Size(66, 22);
             this.practicasToolStripMenuItem.Text = "Practicas";
@@ -199,43 +206,57 @@ namespace WindowsFormsApp1.Formas
             // calificacionesToolStripMenuItem
             // 
             this.calificacionesToolStripMenuItem.Name = "calificacionesToolStripMenuItem";
-            this.calificacionesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.calificacionesToolStripMenuItem.Size = new System.Drawing.Size(262, 22);
             this.calificacionesToolStripMenuItem.Text = "Calificaciones";
             this.calificacionesToolStripMenuItem.Click += new System.EventHandler(this.calificacionesToolStripMenuItem_Click);
             // 
             // usuarioValidoToolStripMenuItem
             // 
             this.usuarioValidoToolStripMenuItem.Name = "usuarioValidoToolStripMenuItem";
-            this.usuarioValidoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.usuarioValidoToolStripMenuItem.Size = new System.Drawing.Size(262, 22);
             this.usuarioValidoToolStripMenuItem.Text = "Usuario valido";
             this.usuarioValidoToolStripMenuItem.Click += new System.EventHandler(this.usuarioValidoToolStripMenuItem_Click);
             // 
             // agenciaDeCitasToolStripMenuItem
             // 
             this.agenciaDeCitasToolStripMenuItem.Name = "agenciaDeCitasToolStripMenuItem";
-            this.agenciaDeCitasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.agenciaDeCitasToolStripMenuItem.Size = new System.Drawing.Size(262, 22);
             this.agenciaDeCitasToolStripMenuItem.Text = "Agencia de citas";
             this.agenciaDeCitasToolStripMenuItem.Click += new System.EventHandler(this.agenciaDeCitasToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(262, 22);
             this.toolStripMenuItem1.Text = "Filtrando Nombres";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
             // conversorToolStripMenuItem
             // 
             this.conversorToolStripMenuItem.Name = "conversorToolStripMenuItem";
-            this.conversorToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.conversorToolStripMenuItem.Size = new System.Drawing.Size(262, 22);
             this.conversorToolStripMenuItem.Text = "Conversor";
             this.conversorToolStripMenuItem.Click += new System.EventHandler(this.conversorToolStripMenuItem_Click);
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(262, 22);
             this.toolStripMenuItem2.Text = "Registrate";
+            // 
+            // toolStripMenuItem3
+            // 
+            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(262, 22);
+            this.toolStripMenuItem3.Text = "Buzon de quejas";
+            this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
+            // 
+            // matriculaYPromedioCalificacionesToolStripMenuItem
+            // 
+            this.matriculaYPromedioCalificacionesToolStripMenuItem.Name = "matriculaYPromedioCalificacionesToolStripMenuItem";
+            this.matriculaYPromedioCalificacionesToolStripMenuItem.Size = new System.Drawing.Size(262, 22);
+            this.matriculaYPromedioCalificacionesToolStripMenuItem.Text = "Matricula y promedio calificaciones";
+            this.matriculaYPromedioCalificacionesToolStripMenuItem.Click += new System.EventHandler(this.matriculaYPromedioCalificacionesToolStripMenuItem_Click);
             // 
             // visorDeToolStripMenuItem
             // 
@@ -247,7 +268,8 @@ namespace WindowsFormsApp1.Formas
             // pruebaMatematicaToolStripMenuItem
             // 
             this.pruebaMatematicaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.pruebaMatematicaToolStripMenuItem1});
+            this.pruebaMatematicaToolStripMenuItem1,
+            this.juegoAdivinaToolStripMenuItem});
             this.pruebaMatematicaToolStripMenuItem.Name = "pruebaMatematicaToolStripMenuItem";
             this.pruebaMatematicaToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
             this.pruebaMatematicaToolStripMenuItem.Text = "Tutoriales guiados";
@@ -259,6 +281,20 @@ namespace WindowsFormsApp1.Formas
             this.pruebaMatematicaToolStripMenuItem1.Size = new System.Drawing.Size(177, 22);
             this.pruebaMatematicaToolStripMenuItem1.Text = "Prueba matematica";
             this.pruebaMatematicaToolStripMenuItem1.Click += new System.EventHandler(this.pruebaMatematicaToolStripMenuItem1_Click);
+            // 
+            // juegoAdivinaToolStripMenuItem
+            // 
+            this.juegoAdivinaToolStripMenuItem.Name = "juegoAdivinaToolStripMenuItem";
+            this.juegoAdivinaToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
+            this.juegoAdivinaToolStripMenuItem.Text = "Juego adivina";
+            this.juegoAdivinaToolStripMenuItem.Click += new System.EventHandler(this.juegoAdivinaToolStripMenuItem_Click);
+            // 
+            // realizarComentariosToolStripMenuItem
+            // 
+            this.realizarComentariosToolStripMenuItem.Name = "realizarComentariosToolStripMenuItem";
+            this.realizarComentariosToolStripMenuItem.Size = new System.Drawing.Size(262, 22);
+            this.realizarComentariosToolStripMenuItem.Text = "Realizar comentarios";
+            this.realizarComentariosToolStripMenuItem.Click += new System.EventHandler(this.realizarComentariosToolStripMenuItem_Click);
             // 
             // FormaHome
             // 
@@ -306,5 +342,9 @@ namespace WindowsFormsApp1.Formas
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem conversorToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem juegoAdivinaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem matriculaYPromedioCalificacionesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem realizarComentariosToolStripMenuItem;
     }
 }
